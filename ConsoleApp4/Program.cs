@@ -21,10 +21,12 @@ namespace ConsoleApp4
             char copyrightSymbol = '\u00A9';
             char omegaSymbol = '\u03A9';
 
-            Console.WriteLine("INTS:\n" + numd.ToString() + "\n" + numf.ToString() + "\n" + numdec.ToString() + "\n" +
-                numuint.ToString() + "\n" + numint.ToString() + "\n" + numlong.ToString() + "\n" + numulong.ToString());
+            Console.WriteLine("INTS:\n" + "\n" + numuint.ToString() + "\n" + numint.ToString() +
+                "\n" + numlong.ToString() + "\n" + numulong.ToString());
 
             Console.WriteLine("\nChars:" + "\n" + copyrightSymbol.ToString() + "\n" + omegaSymbol);
+
+            Console.WriteLine("\nREAIS:\n" + numd.ToString() + "\n" + numf.ToString() + "\n" + numdec.ToString());
         }
     }
 }
